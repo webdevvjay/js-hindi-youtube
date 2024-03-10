@@ -1,0 +1,40 @@
+javascript execution context
+
+1. first of all  Globa execution context gets created (essential), and it is placed in the variable called {this}. in the browser the global execution context is windows
+
+2. Functional execution context 
+
+3. eval execution context
+
+javascript runs in two phases:
+a) Memory creation phase / creation phase
+In this only memory is allocated to the variable
+b)execution phase
+
+let val1 = 10;
+let val2 = 5;
+function addNum(num1, num2) {
+    let total = num1 + num2
+    return total
+}
+
+let result1 = addNum(val1,val2)
+let result2 = addNum(10,2)
+
+now how execution takes place behind the scene
+
+1) Global Execution / Global environment // which gets allocated to (this) keyword which the foremost and basic necessity.
+
+2) Memory Phase : all the variable gets accumulated and allocated the space
+
+val1 => undefined
+val2 => undefined
+addNum => defination
+result1 => undefined
+result2 => undefined
+
+3) Execution Phase
+val1 <= 10
+val2 <= 5
+
+addNumb (it creats it own seperate Execution context) -- here two things happen 1) new variable environment and 2) Execution thread gets created 
