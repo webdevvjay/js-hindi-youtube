@@ -46,7 +46,7 @@ buttons.forEach(function (button) {
 
 ## Project 2 Solution
 
-```
+```javascript
 const form = document.querySelector('form');
 
 // the following usecase will give you empty value
@@ -86,7 +86,7 @@ form.addEventListener('submit', function (e) {
 
 ## Project 3 solution code
 
-```
+```javascirpt
 document.getElementById('clock');
 //document.querySelector('#clock')
 
