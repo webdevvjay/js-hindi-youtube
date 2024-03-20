@@ -86,7 +86,7 @@ form.addEventListener('submit', function (e) {
 
 ## Project 3 solution code
 
-```javascirpt
+```javascript
 document.getElementById('clock');
 //document.querySelector('#clock')
 
