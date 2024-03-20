@@ -9,7 +9,7 @@
 ## project 1
 
 ```javascript
-console.log("Vijay Singh Diggi")
+console.log("Vijay Singh Diggi ")
 
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
