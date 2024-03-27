@@ -198,7 +198,7 @@ function newGame() {
 ```
 
 
-#Project 5 Solution
+## Project 5 Solution
 
 ```javascript
 const insert = document.getElementById('insert');
@@ -225,7 +225,7 @@ window.addEventListener('keydown', (e) => {
 
 ```
 
-#Project 6 Solution
+## Project 6 Solution
 
 ```javascript
 //generate a random color
