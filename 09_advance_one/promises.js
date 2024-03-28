@@ -91,7 +91,7 @@ consumePromiseFive()
 
 // for the next class
 
-async function getAllUser() {
+/* async function getAllUser() {
   try {
     const respo = await fetch('https://jsonplaceholder.typicode.com/users')
     const data = await respo.json();
@@ -101,4 +101,15 @@ async function getAllUser() {
   }
 }
 
-getAllUser()
+getAllUser() */
+
+
+fetch('https://api.github.com/users/webdevvjay')
+.then((response) =>{
+    return response.json()
+
+})
+.then((data)=>{
+    console.log(data);
+})
+.catch((error)=> console.log(error))
