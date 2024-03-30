@@ -17,7 +17,7 @@
 - Instances (new, this)
 
 # 4 Pillars
-- Abstraction
-- Encapsulation
-- Inheritance
-- Polymorphism
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
